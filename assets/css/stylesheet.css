@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#648282;
+    color: #f7f7f7;
+}
+
+#datos{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    color: cornsilk;
+}
+
+#Header img{
+    border-radius: 20%;
+}
+
+#InnerHero{
+    background-color:#152121;
+    border-radius: 5%;
+    
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: #f7f7f7;
+    text-decoration: none;
+    background-color:rgb(88, 119, 119);
+    border: var(--bs-list-group-border-width) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 3%;
+    padding-bottom: 3%;
+   
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+p{
+    font-size: calc(0.5rem + 1vw) !important;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: block;
+    text-align: left !important;
+    font-family: 'Noto Serif', serif !important; 
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: calc((1.5rem + 2vw));
+    color: #f7f7f7;
+    text-align: center;
+    height: 20%;
+    display: block;
+    margin: 0;
+}
+
+#contactos{
+    margin-bottom: 50px;
+}
+#contactos label{
+    color: #f7f7f7;
+}
+
+#contactos input{
+    color: #f7f7f7;
+}
+
+
+.footer {
+    background-color: rgb(27, 21, 21);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    color: #f7f7f7;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+footer ul li {
+    list-style: none;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+}
+  
+footer ul li a {
+    text-decoration: none;
+    color: #f7f7f7;
+  
+  }
+
+footer ul li a:hover{
+    text-decoration: none;
+    color: rgb(67, 123, 159);
+}
+
+textarea{
+    background-color: #e0e7deb8;
+}
+
+input[type=submit]{
+
+    width: 10%;
+    height: 5%;
+    background-color: rgb(40, 53, 49);
+    color: rgb(246, 246, 246);
+}
+
+.card .card-image .card-title {
+    color: #ffab40;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 24px;
+    font-size: large;
+}
